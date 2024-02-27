@@ -6,7 +6,7 @@
 /*   By: akinzeli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/21 17:04:13 by akinzeli          #+#    #+#             */
-/*   Updated: 2024/02/23 11:46:41 by akinzeli         ###   ########.fr       */
+/*   Updated: 2024/02/27 13:41:34 by akinzeli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,6 @@
 
 int	nextstep(char c, char charset)
 {
-	int	i;
-
-	i = 0;
 	if (c == charset)
 	{
 		return (1);
